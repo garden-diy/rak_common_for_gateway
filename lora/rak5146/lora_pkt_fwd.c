@@ -78,7 +78,7 @@ License: Revised BSD License, see LICENSE.TXT file include in the project
 #define DEFAULT_PORT_UP     1780
 #define DEFAULT_PORT_DW     1782
 #define DEFAULT_KEEPALIVE   5           /* default time interval for downstream keep-alive packet */
-#define DEFAULT_STAT        30          /* default time interval for statistics */
+#define DEFAULT_STAT        300         /* default time interval for statistics */
 #define PUSH_TIMEOUT_MS     100
 #define PULL_TIMEOUT_MS     200
 #define GPS_REF_MAX_AGE     30          /* maximum admitted delay in seconds of GPS loss before considering latest GPS sync unusable */
